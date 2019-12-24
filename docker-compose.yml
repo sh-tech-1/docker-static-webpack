@@ -1,8 +1,7 @@
-version: '3'
+version: "3"
 services:
   node:
-    image: node:10.18.0-alpine3.11
-    container_name: webpack
+    image: node:11-alpine
     volumes:
       - ${PROJECT_PATH}:/work
     working_dir: /work

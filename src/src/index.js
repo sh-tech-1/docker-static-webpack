@@ -15,8 +15,8 @@ import "./layouts/_side.scss";
 import "./objects/_input.scss";
 
 //Project:ページ単体でのみ使用されるオブジェクト(モジュール)で汎用性が低いもの
-import "./projects/toppage/index.scss";
+import "./objects/projects/toppage/index.scss";
 
 //Utility:一時的な対処のために利用する
-import "./utilities/_utility.scss";
+import "./objects/utilities/_utility.scss";
 
