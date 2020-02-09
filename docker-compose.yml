@@ -1,7 +1,8 @@
 version: "3"
 services:
   node:
-    image: node:11-alpine
+    image: node:12.14-alpine
+    tty: true
     volumes:
       - ${PROJECT_PATH}:/work
     working_dir: /work
